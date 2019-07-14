@@ -1,8 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Федор Колтырин](https://up.htmlacademy.ru/adaptive/17/user/937147).
-* Наставник: `Неизвестно`.
-
+* Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761).
 ---
 
 **Обратите внимание, что папка с вашими исходными файлами — `source/`.**
