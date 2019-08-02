@@ -1,0 +1,146 @@
+
+$row-color:rgb(242, 242, 242);
+$bigbtm-color:rgb(104, 183, 56);
+$textwhite-color:rgb(255, 255, 255);
+$textblack-color:rgb(0, 0, 0);
+$font-family: "Oswald Regular", "Arial",sans-serif;
+
+
+
+@mixin Oswald-text ($color, $size){
+  font: {
+    family:"Oswald Regular";
+    weight: normal;
+    size: $size;
+  }
+  color:$color;
+}
+
+@mixin Arial-text ($size) {
+  font: {
+    family: Arial;
+    weight: normal;
+    size: $size;
+  }
+  color:$textblack-color;
+}
+
+body  {
+  margin: 0 auto;
+  width: 320px;
+  height: 3158px;
+  background: $textwhite-color;
+}
+
+
+.page-header {
+
+}
+
+.page-header__logo {
+
+
+}
+.big {
+
+}
+ .big-button {
+   @include Oswald-text ($textwhite-color, 14px);
+   padding: 15px 72px 15px 72px;
+   font-weight: normal;
+   text-align:center;
+   text-decoration: none;
+   margin-left: 20px;
+   background-color: $bigbtm-color;
+ }
+
+.bgcat {
+  margin: 0 auto;
+}
+.advertising-item {
+  margin: 0px;
+  padding-top: 20px;
+}
+
+.advertising-item__inventory {
+background-color:$row-color;
+list-style-type: none;
+margin-right: 20px;
+margin-left: -20px;
+margin-top: 20px;
+   }
+
+.advertising-item__title {
+@include Oswald-text ($textblack-color, 24px);
+  text-align: center;
+  padding: 20px;
+}
+.advertising-item__paragraph {
+  padding: 20px;
+}
+.advertising-item__catalog {
+    padding: 20px;
+    @include Oswald-text ($textblack-color, 16px);
+    text-decoration: none;
+     }
+
+
+.advertising-item__paragraph .works__list {
+  @include Arial-text (14px);
+}
+
+.works__title {
+  @include Oswald-text ($textblack-color, 36px);
+margin: 20px;
+}
+.works__description  {
+  margin: 20px;
+   }
+
+
+.page-footer {
+ background-color: $row-color;
+
+}
+
+.footer-logo {
+  padding-right: 95px;
+  padding-left: 95px;
+}
+.social__link--vk {
+
+
+}
+.social__link--fb{
+
+
+}
+.social__link--in{
+}
+
+//Страница Каталога//
+
+.title {
+@include Oswald-text ($textblack-color, 36px);
+}
+
+.product {
+display: flex;
+width: 280px;
+height: 210px;
+border: 2px ridge silver;
+}
+
+ .product__title {
+  @include Oswald-text ($textblack-color, 16px);
+  text-decoration: none;
+}
+
+
+.product__order {
+  width: 280px;
+  height: 40px;
+  background: $bigbtm-color;
+  text-decoration: none;
+  @include Oswald-text ($textwhite-color, 16px);
+}
