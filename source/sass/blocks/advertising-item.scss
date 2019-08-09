@@ -1,0 +1,31 @@
+.advertising-item {
+  margin: 0px;
+  padding-top: 20px;
+     &__inventory {
+      background-color:$primary-color;
+      list-style-type: none;
+      margin-right: 20px;
+      margin-left: -20px;
+      margin-top: 20px;
+     }
+     &__title {
+     @include Oswald-text ($textblack-color, 24px);
+       text-align: center;
+       font-weight: 400;
+       line-height: 37px;
+       padding: 20px;
+     }
+     &__paragraph {
+       @include Arial-text (14px)
+       font-family: "Arial";
+       line-height: 18px;
+       padding: 20px;
+       font-weight: 400;
+     }
+     &__catalog {
+         padding: 20px;
+         @include Oswald-text ($textblack-color, 16px);
+         text-decoration: none;
+         line-height: 16px;
+            }
+       }

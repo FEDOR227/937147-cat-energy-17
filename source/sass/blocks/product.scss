@@ -1,0 +1,35 @@
+.product {
+display: flex;
+width: 280px;
+height: 210px;
+border: 2px ridge silver;
+}
+
+.product__link {
+
+}
+
+.product__title {
+  @include Oswald-text ($textblack-color, 16px);
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.product__list {
+  @include Arial-text (12px);
+  line-height: 16px;
+  font-weight: 400;
+}
+
+
+
+
+.product__order {
+  width: 280px;
+  height: 40px;
+  background: $bigbtm-color;
+  text-decoration: none;
+  line-height: 20px;
+  @include Oswald-text ($textwhite-color, 16px);
+}

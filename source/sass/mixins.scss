@@ -1,0 +1,15 @@
+@mixin Oswald-text ($color, $size){
+  font: {
+    family:"Oswald";
+    size: $size;
+  }
+  color:$color;
+}
+
+@mixin Arial-text ($size){
+  font: {
+    family:"Arial";
+    size: $size;
+  }
+  color:$textblack-color;
+}

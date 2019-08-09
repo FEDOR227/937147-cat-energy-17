@@ -1,0 +1,17 @@
+.works {
+    &__title {
+  @include Oswald-text ($textblack-color, 36px);
+  line-height: 60px;
+margin: 20px;
+     }
+     &__list {
+     }
+   &__description  {
+     @include Arial-text (14px)
+     font-family: "Arial";
+     line-height: 18px;
+  margin: 20px;
+
+    }
+
+         }
