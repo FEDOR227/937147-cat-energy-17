@@ -1,31 +1,31 @@
 .advertising-item {
   margin: 0px;
-  padding-top: 20px;
-     &__inventory {
+
+}
+     .advertising-item__inventory {
       background-color:$primary-color;
       list-style-type: none;
       margin-right: 20px;
       margin-left: -20px;
       margin-top: 20px;
      }
-     &__title {
-     @include Oswald-text ($textblack-color, 24px);
+
+     .advertising-item__title {
+     @include Oswald-normal ($textblack-color, 24px);
        text-align: center;
-       font-weight: 400;
        line-height: 37px;
        padding: 20px;
      }
-     &__paragraph {
-       @include Arial-text (14px)
-       font-family: "Arial";
+     .advertising-item__paragraph {
+       @include Arial-text (14px);
        line-height: 18px;
        padding: 20px;
        font-weight: 400;
      }
-     &__catalog {
+     .advertising-item__catalog {
+         display: inline-block;
          padding: 20px;
-         @include Oswald-text ($textblack-color, 16px);
+         @include Oswald-normal ($textblack-color, 16px);
          text-decoration: none;
          line-height: 16px;
-            }
-       }
+      }

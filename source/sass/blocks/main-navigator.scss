@@ -1,0 +1,32 @@
+
+.main-nav {
+
+
+}
+.main-nav__toggle {
+
+
+}
+
+.main-nav__wrapper {
+
+
+
+}
+
+.main-nav__list {
+
+
+
+
+}
+.site-list__item {
+text-align: center;
+display: block;
+padding: 20px;
+}
+
+.site-list__menu {
+ text-decoration: none;
+ @include Oswald-medium ($textblack-color, 20px);
+}

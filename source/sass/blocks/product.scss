@@ -6,30 +6,34 @@ border: 2px ridge silver;
 }
 
 .product__link {
-
+text-decoration: none;
 }
 
 .product__title {
-  @include Oswald-text ($textblack-color, 16px);
-  font-weight: 400;
+  @include Oswald-normal ($textblack-color, 16px);
   line-height: 20px;
-  text-decoration: none;
+
 }
 
 .product__list {
   @include Arial-text (12px);
   line-height: 16px;
   font-weight: 400;
+  color:$textsilver-color;
+
+}
+.product_img {
+
 }
 
 
 
-
 .product__order {
+  margin-top: 140px;
   width: 280px;
   height: 40px;
   background: $bigbtm-color;
   text-decoration: none;
   line-height: 20px;
-  @include Oswald-text ($textwhite-color, 16px);
+  @include Oswald-normal ($textwhite-color, 16px);
 }

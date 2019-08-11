@@ -6,3 +6,25 @@
 
 
 }
+
+.page-header__img {
+  width:320px;
+  height:400px;
+  padding: 5px;
+  text-align: center;
+  background:url(../img/index-can-mobile@1x.png) 20px 168px no-repeat,
+  url(../img/index-background-mobile@1x.jpg) 0 0 no-repeat;
+}
+.page-header__img1 {
+  @include Oswald-normal ($textwhite-color, 36px);
+}
+
+
+
+
+.page-header__img2 {
+  display: inline-block;
+  text-align: center;
+@include Oswald-normal ($textwhite-color, 14px);
+
+}
