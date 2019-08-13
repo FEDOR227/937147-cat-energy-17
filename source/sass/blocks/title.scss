@@ -1,4 +1,4 @@
 .title {
-@include Oswald-normal ($textblack-color, 36px);
+  @include Oswald-normal (36px, $normalsize-font-weight, $textgreydark-color);
   line-height: 60px;
 }

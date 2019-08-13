@@ -1,32 +1,18 @@
+.main-nav {}
 
-.main-nav {
+.main-nav__toggle {}
 
+.main-nav__wrapper {}
 
-}
-.main-nav__toggle {
+.main-nav__list {}
 
-
-}
-
-.main-nav__wrapper {
-
-
-
-}
-
-.main-nav__list {
-
-
-
-
-}
 .site-list__item {
-text-align: center;
-display: block;
-padding: 20px;
+  text-align: center;
+  display: block;
+  padding-top: 20px;
 }
 
 .site-list__menu {
- text-decoration: none;
- @include Oswald-medium ($textblack-color, 20px);
+  @include Oswald-medium (20px, $mediumsize-font-weight, $textgreydark-color);
+  line-height: 20px;
 }

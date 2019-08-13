@@ -1,25 +1,23 @@
-@mixin Oswald-normal ($color, $size){
+@mixin Oswald-normal ($size, $weight, $color) {
   font: {
-    family:"oswald","Arial",sans-serif;
-    weight: 400;
+    family: "Oswald","Arial",sans-serif;
     size: $size;
+    weight: $weight;
   }
-  color:$color;
+  color: $color;
 }
-
-@mixin Oswald-medium ($color, $size){
+@mixin Oswald-medium ($size, $weight, $color,) {
   font: {
-    family: "oswald","Arial",sans-serif;
-    weight: 500;
+    family: "Oswald","Arial",sans-serif;
     size: $size;
+    weight: $weight;
   }
-  color:$color;
+  color: $color;
 }
-
-@mixin Arial-text ($size){
+@mixin Arial-text ($size, $color) {
   font: {
-    family:"Arial",sans-serif;
+    family: "Arial",sans-serif;
     size: $size;
   }
-  color:$textblack-color;
+  color: $color;
 }

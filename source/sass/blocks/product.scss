@@ -1,39 +1,49 @@
 .product {
-display: flex;
-width: 280px;
-height: 210px;
-border: 2px ridge silver;
+  display: flex;
+  width: 280px;
+  height: 210px;
+  border: 2px ridge silver;
 }
 
-.product__link {
-text-decoration: none;
-}
+.product__link {}
 
 .product__title {
-  @include Oswald-normal ($textblack-color, 16px);
+  @include Oswald-normal (16px, $normalsize-font-weight, $textgreydark-color);
   line-height: 20px;
-
 }
 
 .product__list {
-  @include Arial-text (12px);
+  @include Arial-text (12px, $textsilver-color);
   line-height: 16px;
-  font-weight: 400;
-  color:$textsilver-color;
-
-}
-.product_img {
-
 }
 
-
+.product_img {}
 
 .product__order {
   margin-top: 140px;
   width: 280px;
   height: 40px;
   background: $bigbtm-color;
-  text-decoration: none;
   line-height: 20px;
-  @include Oswald-normal ($textwhite-color, 16px);
+  @include Oswald-normal (16px, $normalsize-font-weight, $textwhite-color);
+}
+
+.product-more__title {
+  @include Oswald-normal (16px, $normalsize-font-weight, $textgreydark-color);
+  line-height: 20px;
+}
+
+.product-more__text {
+  display: inline-block;
+  @include Arial-text (12px, $textsilver-color);
+  line-height: 16px;
+}
+
+.btn {
+  display: inline-block;
+  background: $primary-color;
+  @include Oswald-normal (16px, $normalsize-font-weight, $textsilver-color);
+  padding: 10px 76px;
+  margin: 20px;
+  line-height: 20px;
 }

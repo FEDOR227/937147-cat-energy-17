@@ -1,31 +1,32 @@
 .advertising-item {
-  margin: 0px;
-
+  margin: 0;
 }
-     .advertising-item__inventory {
-      background-color:$primary-color;
-      list-style-type: none;
-      margin-right: 20px;
-      margin-left: -20px;
-      margin-top: 20px;
-     }
 
-     .advertising-item__title {
-     @include Oswald-normal ($textblack-color, 24px);
-       text-align: center;
-       line-height: 37px;
-       padding: 20px;
-     }
-     .advertising-item__paragraph {
-       @include Arial-text (14px);
-       line-height: 18px;
-       padding: 20px;
-       font-weight: 400;
-     }
-     .advertising-item__catalog {
-         display: inline-block;
-         padding: 20px;
-         @include Oswald-normal ($textblack-color, 16px);
-         text-decoration: none;
-         line-height: 16px;
-      }
+.advertising-item__inventory {
+  background-color: $primary-color;
+  list-style-type: none;
+  margin-right: 20px;
+  margin-left: -25px;
+  margin-top: 20px;
+}
+
+.advertising-item__title {
+  @include Oswald-normal (20px, $normalsize-font-weight, $textblack-color);
+  text-align: center;
+  line-height: 37px;
+  padding: 20px;
+}
+
+.advertising-item__paragraph {
+  @include Arial-text (14px, $textsilver-color);
+  line-height: 18px;
+  padding: 20px;
+  font-weight: 400;
+}
+
+.advertising-item__catalog {
+  display: inline-block;
+  padding: 20px;
+  @include Oswald-normal(16px, $normalsize-font-weight, $textgreydark-color);
+  line-height: 16px;
+}
