@@ -1,0 +1,15 @@
+.works {}
+
+.works__title {
+  @include Oswald-normal (36px, $normalsize-font-weight, $textgreydark-color);
+  line-height: 60px;
+  margin: 20px;
+}
+
+.works__list {}
+
+.works__description {
+  @include Arial-text (14px, $textsilver-color);
+  line-height: 18px;
+  margin: 20px;
+}
