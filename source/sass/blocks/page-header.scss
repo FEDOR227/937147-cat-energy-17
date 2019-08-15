@@ -14,6 +14,7 @@
   text-align: center;
   @include Oswald-normal (36px, $normalsize-font-weight, $textwhite-color);
   line-height: 36px;
+
 }
 
 .page-header__img2 {
@@ -21,4 +22,5 @@
   padding-left: 70px;
   line-height: 14px;
   @include Oswald-normal (14px, $normalsize-font-weight, $textwhite-color);
+  text-transform: uppercase;
 }

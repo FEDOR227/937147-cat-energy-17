@@ -25,6 +25,7 @@
   height: 40px;
   background: $bigbtm-color;
   line-height: 20px;
+  text-transform: uppercase;
   @include Oswald-normal (16px, $normalsize-font-weight, $textwhite-color);
 }
 
