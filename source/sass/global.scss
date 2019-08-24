@@ -1,13 +1,17 @@
 html {
-  box-sizing: border-box;
-  overflow-x: hidden;
+
 }
 
 body {
-  width: 100%;
+  min-width: 320px;
   background: $textwhite-color;
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

@@ -1,10 +1,11 @@
 .big-button {
   display: inline-block;
   width: 160px;
-  margin: 10px;
+  margin: auto;
   @include Oswald-normal (14px, $normalsize-font-weight, $textwhite-color);
   padding: 15px 72px;
   line-height: 18px;
   text-align: center;
   background-color: $bigbtm-color;
+  text-transform: uppercase;
 }

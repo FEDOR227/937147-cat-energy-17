@@ -11,10 +11,11 @@
 }
 
 .advertising-item__title {
-  @include Oswald-normal (20px, $normalsize-font-weight, $textblack-color);
+  @include Oswald-normal (20px, $normalsize-font-weight, $textgreydark-color);
   text-align: center;
   line-height: 37px;
   padding: 20px;
+  text-transform: uppercase;
 }
 
 .advertising-item__paragraph {
@@ -29,4 +30,5 @@
   padding: 20px;
   @include Oswald-normal(16px, $normalsize-font-weight, $textgreydark-color);
   line-height: 16px;
+  text-transform: uppercase;
 }
