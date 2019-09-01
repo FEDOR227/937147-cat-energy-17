@@ -1,107 +1,46 @@
+.main-nav {
+  width: 320px;
+  margin: 0 auto;
 
-
-
-
-
-.site-list__item {
-  text-align: center;
-  display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border: 1px solid silver;
-  margin-left: -40px;
-  margin-right: 10px;
+  @media(min-width: $tablet-width) {
+    width: auto;
+    margin: 0;
 }
-
-.site-list__menu {
-  justify-content: flex-end;
-  align-self: flex-end;
-  @include Oswald-normal (20px, $mediumsize-font-weight, $textgreydark-color);
-  line-height: 20px;
-  text-transform: uppercase;
-  padding: 5px;
-  border: 1px solid green;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(min-width: $tablet-width) {
-  .main-nav__list {
-  display: flex;
-    border: 1px solid red;
-
-  flex-direction: row;
-      justify-content:flex-end;
-    }
-
-
-
-
-  .site-list__item {
-    border: 5px solid silver;
-flex-direction: row;
-    justify-content:flex-end;
-
-    padding: 10px 20px;
-
-  }
-
-  .site-list__menu {
-    @include Oswald-normal (14px, $normalsize-font-weight, $textgreydark-color);
-    line-height: 20px;
-    text-transform: uppercase;
-    padding-left:5px;
-    padding-right: 5px;
-    border: 1px solid green;
-    margin: 10px;
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media(min-width: $desktop-width){
-  .main-nav {
+
+  }
+}
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  min-height: 50px;
+
+@media(min-width: $tablet-width){
+  display: flex;
+
+  flex-direction: row;
+    justify-content:flex-end;
+    width: 450px;
+    margin: 0 auto;
+}
+@media(min-width: $desktop-width){
     width: 1200px;
     margin: 0 auto;
 
-    border: 1px solid silver;
-  }
-
-  .main-nav__list {
-  display: flex;
-    border: 1px solid red;
-  padding-right:80px;
-  }
-
-
 }
+}
+.sate-list {
+  min-height: 225px;
+@media(min-width: $tablet-width){
+  width: 450px;
+  min-height: 45px;
+  padding-top: -350px;
+}
+@media(min-width: $desktop-width){
+
+width: 490px;
+margin: 0 auto;
+    }
+  }

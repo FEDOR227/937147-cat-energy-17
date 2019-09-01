@@ -3,20 +3,20 @@
 @import  "fonts";
 @import  "mixins";
 @import  "global";
+@import  "normalize";
 
 
-
-
-@import  "blocks/footer-logo";
 @import  "blocks/academy";
 @import  "blocks/advertising-item";
-@import  "blocks/big-button";
+@import  "blocks/container";
+@import  "blocks/footer-logo";
 @import  "blocks/main-navigator";
-@import  "blocks/page-header";
+@import  "blocks/more-product";
 @import  "blocks/page-footer";
+@import  "blocks/page-header";
 @import  "blocks/product";
+@import  "blocks/promo";
 @import  "blocks/site-list";
 @import  "blocks/social";
 @import  "blocks/title";
 @import  "blocks/works";
-@import  "blocks/big";

@@ -3,18 +3,61 @@
   width: 280px;
   height: 210px;
   border: 2px ridge silver;
-}
+  box-sizing: border-box;
 
-.product__link {}
+@media (min-width: $tablet-width) {
+
+    width: 325px;
+    height: 430px;
+  }
+
+@media (min-width: $desktop-width) {
+
+    width: 245px;
+    height: 514px;
+  }
+}
+.product__link {
+
+}
 
 .product__title {
   @include Oswald-normal (16px, $normalsize-font-weight, $textgreydark-color);
   line-height: 20px;
+  border: 1px silver green;
+
+
+@media (min-width: $tablet-width) {
+
+    @include Oswald-normal (16px, $normalsize-font-weight, $textgreydark-color);
+    line-height: 20px;
+    border: 1px silver green;
+
+
+}
+@media(min-width: $desktop-width) {
+
+    @include Oswald-normal (16px, $normalsize-font-weight, $textgreydark-color);
+    line-height: 20px;
+    border: 1px silver green;
+  }
 }
 
 .product__list {
   @include Arial-text (12px, $textsilver-color);
   line-height: 16px;
+
+@media(min-width: $tablet-width) {
+
+    @include Arial-text (12px, $textsilver-color);
+    line-height: 16px;
+  }
+
+@media (min-width: $desktop-width) {
+
+    @include Arial-text (12px, $textsilver-color);
+    line-height: 16px;
+  }
 }
 
 .product_img {}
@@ -27,18 +70,35 @@
   line-height: 20px;
   text-transform: uppercase;
   @include Oswald-normal (16px, $normalsize-font-weight, $textwhite-color);
+
+@media(min-width: $tablet-width) {
+
+    margin-top: 140px;
+    width: 280px;
+    height: 40px;
+    background: $bigbtm-color;
+    line-height: 20px;
+    text-transform: uppercase;
+    @include Oswald-normal (16px, $normalsize-font-weight, $textwhite-color);
+  }
+
+@media(min-width:$desktop-width) {
+
+    margin-top: 140px;
+    width: 280px;
+    height: 40px;
+    background: $bigbtm-color;
+    line-height: 20px;
+    text-transform: uppercase;
+    @include Oswald-normal (16px, $normalsize-font-weight, $textwhite-color);
+  }
 }
 
-.product-more__title {
-  @include Oswald-normal (16px, $normalsize-font-weight, $textgreydark-color);
-  line-height: 20px;
-}
+.product__order {}
 
-.product-more__text {
-  display: inline-block;
-  @include Arial-text (12px, $textsilver-color);
-  line-height: 16px;
-}
+
+
+
 
 .btn {
   display: inline-block;
@@ -47,4 +107,24 @@
   padding: 10px 76px;
   margin: 20px;
   line-height: 20px;
+
+@media(min-width: $tablet-width) {
+
+    display: inline-block;
+    background: $primary-color;
+    @include Oswald-normal (16px, $normalsize-font-weight, $textsilver-color);
+    padding: 10px 76px;
+    margin: 20px;
+    line-height: 20px;
+  }
+
+@media(min-width: $tablet-width) {
+
+    display: inline-block;
+    background: $primary-color;
+    @include Oswald-normal (16px, $normalsize-font-weight, $textsilver-color);
+    padding: 10px 76px;
+    margin: 20px;
+    line-height: 20px;
+  }
 }

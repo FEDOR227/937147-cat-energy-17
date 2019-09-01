@@ -1,9 +1,11 @@
 html {
+  box-sizing: border-box;
+  overflow-x: hidden;
 
 }
 
 body {
-  min-width: 320px;
+  width: 100%;
   background: $textwhite-color;
 }
 

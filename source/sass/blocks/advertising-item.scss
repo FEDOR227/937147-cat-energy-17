@@ -1,13 +1,48 @@
+
 .advertising-item {
   margin: 0;
-}
+border: 2px solid red;
+    @media(min-width: $tablet-width){
 
+    }
+    @media(min-width: $desktop-width){
+
+    }
+}
+.advertising-item__list {
+border: 2px solid green;
+  @media(min-width: $tablet-width){
+    width: 760px;
+    padding: 0 20px;
+  }
+  @media(min-width: $desktop-width){
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+margin: 20px;
+width: 1260px;
+min-height: 370px;
+
+  }
+
+}
 .advertising-item__inventory {
+  border: 2px solid grey;
   background-color: $primary-color;
   list-style-type: none;
   margin-right: 20px;
   margin-left: -25px;
   margin-top: 20px;
+  @media(min-width: $tablet-width){
+
+  }
+  @media(min-width: $desktop-width){
+    width: 570px;
+    height: 370px;
+    padding: 20px;
+    margin: 0 40px;
+  }
+
 }
 
 .advertising-item__title {
@@ -16,13 +51,18 @@
   line-height: 37px;
   padding: 20px;
   text-transform: uppercase;
+  @media(min-width: $tablet-width){}
+  @media(min-width: $desktop-width){}
 }
+
 
 .advertising-item__paragraph {
   @include Arial-text (14px, $textsilver-color);
   line-height: 18px;
   padding: 20px;
   font-weight: 400;
+  @media(min-width: $tablet-width){}
+  @media(min-width: $desktop-width){}
 }
 
 .advertising-item__catalog {
@@ -31,4 +71,6 @@
   @include Oswald-normal(16px, $normalsize-font-weight, $textgreydark-color);
   line-height: 16px;
   text-transform: uppercase;
+  @media(min-width: $tablet-width){}
+  @media(min-width: $desktop-width){}
 }

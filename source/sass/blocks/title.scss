@@ -1,4 +1,18 @@
 .title {
-  @include Oswald-normal (36px, $normalsize-font-weight, $textgreydark-color);
-  line-height: 60px;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  font-family: "Oswald", "Arial", sans-serif;
+  color: $textgreydark-color;
+
+
+  @media (min-width: $tablet-width) {
+
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px 50px;
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
