@@ -1,21 +1,30 @@
 .page-footer {
-  display: flex;
-  width: 100%;
+  display: block;
+  width: auto;
   min-height: 240px;
   background-color: $primary-color;
-  justify-content: center;
-  flex-direction: column;
 
 
 @media(min-width:$tablet-width){
-  width:100%;
-  flex-direction: row;
-  justify-content: space-around;
   min-height: 150px;
 }
 
 @media(min-width:$desktop-width){
-   width: 1440px;
-   justify-content: space-around;
+
 }
+}
+.page-footer__center {
+   display: flex;
+   flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    border: 5px solid blue;
+
+@media(min-width:$tablet-width){
+  width: 708px;
+}
+@media(min-width:$desktop-width){
+  width: 1220px;
+  }
 }

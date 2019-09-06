@@ -1,27 +1,16 @@
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 320px;
-  padding: 0 30px;
-  margin: 0 auto;
-}
+ margin-left: auto;
+ margin-right: auto;
+ width: 280px;
+ border: 2px solid black;
+
 
 @media (min-width: $tablet-width) {
-.container{
-flex-direction: row;
-justify-content: space-between;
-flex-wrap: wrap;
-width: 768px;
-padding: 0 50px;
-   }
-}
-
+width: 708px;
+border: 2px solid black;
+  }
 @media (min-width: $desktop-width) {
-  .container{
- flex-direction: row;
- justify-content: space-between;
- flex-wrap: wrap;
- width: 1200px;
+ width: 1220px;
+ border: 2px solid black;
    }
  }
