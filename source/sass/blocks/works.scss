@@ -1,7 +1,7 @@
 .works {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   border: 2px solid red;
 
 
@@ -13,18 +13,20 @@
 @media(min-width: $desktop-width){
   width: 1220px;
   min-width: 400px;
+  min-height: 150px;
+  height: 522px;
 
   }
 }
 .works__list {
-
   border: 6px solid green;
 list-style: none;
 @media(min-width: $tablet-width) {
 display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
+  align-items: center;
 }
 @media(min-width: $desktop-width) {
 
@@ -35,7 +37,7 @@ border: 2px solid grey;
 margin: 40px 0;
 @media(min-width: $tablet-width) {
   width: 240px;
-  min-height: 290px;
+  height: 190px;
   margin-right: 30px;
 }
 @media(min-width: $desktop-width) {
@@ -47,15 +49,15 @@ margin: 40px 0;
   @include Oswald-normal (36px, $normalsize-font-weight, $textgreydark-color);
   line-height: 60px;
   margin: 20px;
-  justify-content: flex-start;
+
 }
 
 @media(min-width: $tablet-width){
   .works__title {
     @include Oswald-normal (36px, $normalsize-font-weight, $textgreydark-color);
     line-height: 60px;
-    margin: 20px;
-    justify-content: flex-start;
+    margin: 20px ;
+
   }
 }
 
@@ -63,12 +65,10 @@ margin: 40px 0;
   .works__title {
     @include Oswald-normal (36px, $normalsize-font-weight, $textgreydark-color);
     line-height: 60px;
-    margin: 20px;
-    justify-content: flex-start;
+    margin: 0 20px;
+
   }
 }
-
-
 
 
 

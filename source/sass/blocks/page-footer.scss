@@ -1,7 +1,6 @@
 .page-footer {
   display: block;
   width: auto;
-  min-height: 240px;
   background-color: $primary-color;
 
 
@@ -16,6 +15,7 @@
 .page-footer__center {
    display: flex;
    flex-direction: column;
+   justify-content: center;
     margin-left: auto;
     margin-right: auto;
     width: 280px;
@@ -23,6 +23,8 @@
 
 @media(min-width:$tablet-width){
   width: 708px;
+  justify-content: space-between;
+  flex-direction: row;
 }
 @media(min-width:$desktop-width){
   width: 1220px;

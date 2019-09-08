@@ -3,20 +3,38 @@
   width: 280px;
   height: 210px;
   border: 2px ridge silver;
-  box-sizing: border-box;
+
 
 @media (min-width: $tablet-width) {
-
     width: 325px;
-    height: 430px;
+    height: 435px;
+    margin: 70px 0;
   }
 
 @media (min-width: $desktop-width) {
-
     width: 245px;
-    height: 514px;
+    margin: 70px 0;
   }
 }
+.product__center{
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 2px solid red;
+
+  @media(min-width: $tablet-width){
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 708px;
+      }
+  @media(min-width: $desktop-width){
+   width: 1220px;
+  }
+}
+
+
+
 .product__link {
 
 }
@@ -109,7 +127,6 @@
   line-height: 20px;
 
 @media(min-width: $tablet-width) {
-
     display: inline-block;
     background: $primary-color;
     @include Oswald-normal (16px, $normalsize-font-weight, $textsilver-color);
@@ -119,7 +136,6 @@
   }
 
 @media(min-width: $tablet-width) {
-
     display: inline-block;
     background: $primary-color;
     @include Oswald-normal (16px, $normalsize-font-weight, $textsilver-color);

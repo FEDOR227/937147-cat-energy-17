@@ -14,11 +14,12 @@
 
 
 .advertising-item__list {
-border: 1px solid red;
+border: 5px solid red;
 display: flex;
 justify-content:center;
 flex-direction: column;
 padding: 0px;
+
 @media(min-width:$tablet-width){
 
 
@@ -26,7 +27,7 @@ padding: 0px;
 
 @media(min-width: $desktop-width){
 flex-direction: row;
-justify-content: space-evenly;
+justify-content: space-between;
      }
 }
 
@@ -36,17 +37,17 @@ justify-content: space-evenly;
 
 
 .advertising-item__inventory {
-  border: 1px solid grey;
+  border: 1px solid yellow;
   background-color: $primary-color;
   list-style-type: none;
+  margin: 10px 0;
   @media(min-width: $tablet-width){
   height: 375px;
   width:auto;
-  margin: 0 auto;
+  margin: 20px 0;
   }
   @media(min-width: $desktop-width){
-
-    height: 370px;
+    width:570px;
   }
 
 }

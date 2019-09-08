@@ -2,21 +2,22 @@
  display: flex;
  flex-direction: column;
  border: 2px ridge silver;
+ width: 280px;
+ height: 210px;
 
   @media(min-width: $tablet-width) {
-
     flex-direction: column;
     justify-content: center;
     width: 325px;
-    height: 430px;
+    height: 435px;
+    margin: 70px 0;
   }
 
 @media(min-width:$desktop-width) {
-
   flex-direction: column;
   justify-content: center;
   width: 245px;
-  height: 514px;
+  height: 430px;
    }
 }
 

@@ -1,9 +1,10 @@
 .page-header__center{
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 280px;
   border: 5px solid green;
-  box-sizing: border-box;
+
 @media(min-width: $tablet-width){
    width:708px;
 }
